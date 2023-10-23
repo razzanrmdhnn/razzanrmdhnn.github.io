@@ -1,0 +1,110 @@
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient( 333deg, rgb(37, 145, 147) 0%, rgb(50, 85, 142) 100%);
+    background-attachment: fixed;
+    color: white;
+    height: 670px;
+    padding-bottom: 45px;
+  }
+
+  header {
+    display: inline;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(54, 63, 67);
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    min-height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    gap: 60px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-item.active,
+.nav-item:hover {
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+table {
+    width: 100%;
+    padding-top: 100px;
+}
+
+th {
+    background-color: #5878ba;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #473b4d;
+}
+
+tr:nth-child(even) {
+    background-color: #807964;
+}
+
+tr:nth-child(odd) {
+    background-color: #3b476b;
+}
+
+hr {
+    border-top: 2px solid rgb(145, 105, 180);
+    border-bottom: 2px solid rgb(145, 105, 180);
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    padding-left: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,122 @@
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient( 333deg, rgb(37, 145, 147) 0%, rgb(50, 85, 142) 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 670px;
+    padding-bottom: 45px;
+  }
+
+  header {
+    display: inline;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(54, 63, 67);
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    min-height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    gap: 60px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-item.active,
+.nav-item:hover {
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+  form {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .submit-button {
+    background-color: #af9b4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+hr {
+    border-top: 2px solid rgb(145, 105, 180);
+    border-bottom: 2px solid rgb(145, 105, 180);
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    padding-left: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
